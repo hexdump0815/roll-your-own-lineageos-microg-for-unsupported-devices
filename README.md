@@ -1,8 +1,8 @@
 # how to build lineageos with microg for unsupported devices?
 
 in case you do not know what lineageos and/or microg is:
-lineageos: https://lineageos.org/
-lineageos with microg: https://lineage.microg.org/
+* lineageos: https://lineageos.org/
+* lineageos with microg: https://lineage.microg.org/
 
 these here are some of my notes on how to build lineageos with microg for devices which are no longer or were never officially supported by lineageos and thus for which there are no regularly updated new offical builds available. 
 
