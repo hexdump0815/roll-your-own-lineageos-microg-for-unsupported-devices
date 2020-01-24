@@ -36,6 +36,7 @@ some notes about how to prepare the manifest files in case one does not have one
 some notes on keys and signing: by default builds are signed with android test keys - if you want to sign your builds with your own developer keys (which is recommended), simply set the build option SIGN_BUILDS to true and as part of the build some new developer keys will be generated. IMPORTANT: save those created keys in the "keys" directory somewhere and use them for all new builds you do, so that they will be singed with the same keys - otherwise you will run in to problems when you update your device and want to keep your /data partition.
 
 ok - now we are ready to start the actual build (only build for one device at a time - building for multiple devices with one run did not work too well for me): simply run the following command as your user (not as root - this is not required):
+```
 docker run \
     -e "BRANCH_NAME=cm-14.1" \
     -e "DEVICE_LIST_CM_14_1=potter" \
@@ -50,6 +51,7 @@ docker run \
     -v "${HOME}/microg/keys:/srv/keys" \
     -v "${HOME}/microg/manifests:/srv/local_manifests" \
     lineageos4microg/docker-lineage-cicd
+```
 
 if everything runs well it should run through without errors and result in the final zip file to be installed on your device in the "zips" directory. if you run into errors you will have to search the net to find out what went wrong - most probably something is not yet right with your manifest file in that case.
 
