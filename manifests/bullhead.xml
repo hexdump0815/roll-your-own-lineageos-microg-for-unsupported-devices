@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" />
+  <project name="LineageOS/android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
+</manifest>
