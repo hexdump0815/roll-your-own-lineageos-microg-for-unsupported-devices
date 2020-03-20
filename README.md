@@ -28,6 +28,7 @@ mkdir -p lineage zips logs cache keys manifests
 
 next one needs to prepare and copy the manifest file for your device into the manifests directory. in this repo you can find the manifest files which worked for me for six devices:
 * athene - motorola g4 plus mobile - https://wiki.lineageos.org/devices/athene
+* harpia - motorola g4 play mobile - https://wiki.lineageos.org/devices/harpia
 * n1awifi - samsung galaxy note 10.1 2014 tablet - https://wiki.lineageos.org/devices/n1awifi
 * bullhead - google nexus 5x mobile (no official 14.1 builds anymore) - https://wiki.lineageos.org/devices/bullhead
 * hammerhead - google nexus 5 mobile - https://wiki.lineageos.org/devices/hammerhead
