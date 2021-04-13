@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="html6405/android_device_samsung_n8010" path="device/samsung/n8010" revision="lineage-14.1" remote="github" />
+  <project name="html6405/android_kernel_samsung_n80xx" path="kernel/samsung/n80xx" revision="lineage-14.1" remote="github" />
+  <project name="html6405/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" revision="lineage-14.1" remote="github" />
+  <project name="html6405/android_device_samsung_n80xx-common" path="device/samsung/n80xx-common" revision="lineage-14.1" remote="github" />
+  <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
+  <project name="html6405/android_hardware_samsung" path="hardware/samsung" revision="lineage-14.1" remote="github" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
+</manifest>
