@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="surblazer/android_device_asus_tilapia" path="device/asus/tilapia" remote="github" />
+  <project name="surblazer/android_device_asus_grouper-7.1" path="device/asus/grouper" remote="github" />
+  <project name="surblazer/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" />
+  <project name="AndDiSa/proprietary_vendor_asus" path="vendor/asus" revision="ads-7.0.1" remote="github" />
+  <project name="AndDiSa/proprietary_vendor_broadcom" path="vendor/broadcom" revision="ads-7.0.1" remote="github" />
+  <project name="AndDiSa/proprietary_vendor_elan" path="vendor/elan" revision="oct-mm" remote="github" />
+  <project name="AndDiSa/proprietary_vendor_invensense" path="vendor/invensense" revision="ads-7.0.1" remote="github" />
+  <project name="AndDiSa/proprietary_vendor_nvidia" path="vendor/nvidia" revision="ads-7.1.0" remote="github" />
+  <project name="Unlegacy-Android/proprietary_vendor_widevine" path="vendor/widevine" revision="aosp-7.1" remote="github" />
+</manifest>
