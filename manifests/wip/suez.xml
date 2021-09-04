@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="ggow/android_device_amazon_suez" path="device/amazon/suez" revision="cm-12.1" remote="github" />
+  <project name="ggow/android_device_amazon_mt8173-common" path="device/amazon/mt8173-common" revision="cm-12.1" remote="github" />
+  <project name="ggow/android_kernel_amazon_mt8173-common" path="kernel/amazon/mt8173-common" revision="cm-14.1" remote="github" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_amazon" path="vendor/amazon" remote="github" />
+</manifest>
